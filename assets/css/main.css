@@ -2394,11 +2394,11 @@
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ea3d1', endColorstr='#ffffff', GradientType=1 );
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
+		background:#3CDAB9  ;
 		color: #fff;
 		cursor: default;
 		padding: 6em 0;
