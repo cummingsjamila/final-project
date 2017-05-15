@@ -1778,12 +1778,15 @@
 /* Image */
 
 	.image {
+		background: url("http://sites.psu.edu/siowfa15/wp-content/uploads/sites/29639/2015/09/Antarctic-melting-glaciers.jpg")
 		border: 0;
 		position: relative;
+		height:50%;
+		
 	}
 
 		.image:before {
-			background: url("images/overlay.png");
+			background: url();
 			content: '';
 			height: 100%;
 			left: 0;
@@ -2398,8 +2401,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ea3d1', end
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
-		background:#3CDAB9  ;
-		color: #fff;
+		background-image:url("https://www.xmple.com/wallpaper/blue-gradient-white-linear-1920x1080-c2-87cefa-ffffff-a-105-f-14.svg") ;
+		background-position: center;
+		background-size: cover;
+		background-image: repeating-linear-gradient();
 		cursor: default;
 		padding: 6em 0;
 		text-align: center;
@@ -2414,8 +2419,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ea3d1', end
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
-			color: #fff;
 			display: inline-block;
 			opacity: 0;
 			padding: 3em;
@@ -2677,7 +2680,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ea3d1', end
 		/* Banner */
 
 			#banner {
-				background-size: 15em, 15em, auto, cover;
+				/*background-size: 15em, 15em, auto, cover;*/
 			}
 
 		/* Main */
